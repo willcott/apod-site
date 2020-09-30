@@ -1,0 +1,38 @@
+.hero-image {
+  width: 600px;
+  height: auto;
+  z-index: 9;
+}
+
+.hero-image_caption_visible {
+  width: 600px;
+  background-color: darkslategray;
+  transition: 1s;
+  opacity: 1;
+  max-height: 800px;
+  transition: 1s;
+  font-size: 0.5em;
+  word-spacing: 0.2em;
+  line-height: 1.2;
+}
+
+.hero-image_caption_hidden {
+  width: 600px;
+  background-color: darkslategrey;
+  transition: 1s;
+  transform: translate(0, -250px);
+  opacity: 0;
+  font-size: 0.5em;
+  max-height: 0;
+  overflow-y: hidden;
+  word-spacing: 0.2em;
+  line-height: 1.2;
+}
+
+.info-button {
+  color: white;
+  margin: 0 12px;
+  padding: 8px 20px;
+  background: darkslategray;
+  font-size: 0.75em
+}

@@ -1,0 +1,22 @@
+.list-item {
+  padding: 24px 0;
+  display: flex;
+}
+
+.list-item_date {
+  width: 240px;
+  padding: 0 24px;
+  margin: auto;
+}
+
+.list-item_title {
+  width: 480px;
+  padding: 0 24px;
+  margin: auto;
+}
+
+.list-item_image {
+  width: 240px;
+  height: auto;
+  padding: 0 24px;
+}
